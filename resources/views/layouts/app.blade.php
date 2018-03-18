@@ -39,12 +39,31 @@
                             HRA
                         </div>
                     </li>
-                    <li class="active">
-                        <a href="#"><i class="fa fa-th-large"></i> <span class="nav-label">Events</span>
-                            <span class="fa arrow"></span></a>
+                    <li class="{{ isActiveRoute('mentors') }}">
+                        <a href="#">
+                            <i class="fa fa-users"></i>
+                            <span class="nav-label">Mentors</span>
+                            <span class="fa arrow"></span>
+                        </a>
                         <ul class="nav nav-second-level">
-                            <li><a href="#">Example Item a</a></li>
-                            <li class="active"><a href="#">Example Item b</a></li>
+                            <li>
+                                <a href="#">Organizations</a>
+                                <a href="#">Mentors</a>
+                                <a href="#">Configuration</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="{{ isActiveRoute('links') }}">
+                        <a href="#">
+                            <i class="fa fa-link"></i>
+                            <span class="nav-label">Links</span>
+                            <span class="fa arrow"></span>
+                        </a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="#">Links</a>
+                                <a href="#">Configuration</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
