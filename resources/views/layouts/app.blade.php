@@ -36,7 +36,7 @@
                                             class="caret"></b></span> </span> </a>
                         </div>
                         <div class="logo-element">
-                            IN+
+                            HRA
                         </div>
                     </li>
                     <li class="active">
