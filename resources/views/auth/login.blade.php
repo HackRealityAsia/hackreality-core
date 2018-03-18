@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="loginColumns animated fadeInDown">
+    <div class="gray-bg loginColumns animated fadeInDown">
         <div class="row">
             <div class="col-md-6">
                 <h3 class="font-bold">HackRealityAsia | Core</h3>
@@ -52,11 +52,11 @@
                         <p class="text-muted text-center">
                             <small>Do you have any inquiries?</small>
                         </p>
-                        <a class="btn btn-sm btn-outline-dark btn-block" href="mailto:maintenance@hackreality.asia">Contact
+                        <a class="btn btn-sm btn-warning btn-block" href="mailto:maintenance@hackreality.asia">Contact
                             Us</a>
                     </form>
                     <p class="m-t">
-                        <small>For immediate maintenance support, please reach us through
+                        <small>For immediate maintenance support (bugs, inconsistency in data), please reach us through
                             <a href="mailto:maintenance@hackreality.asia">
                                 maintenance@hackreality.asia
                             </a>
