@@ -18,6 +18,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/hr-core.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    @section('page-level-styles')
+    @endsection
 </head>
 <body>
 <div id="app">
@@ -77,6 +80,9 @@
 <!-- Scripts -->
 <script src="{{ asset('js/hr-core.js') }}"></script>
 <script src="{{ asset('js/app.js') }}"></script>
+
+@section('page-level-scripts')
+@endsection
 
 </body>
 </html>
